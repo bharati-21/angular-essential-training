@@ -1,42 +1,38 @@
 {
-  "name": "angular-essential-training",
-  "version": "1.0.0",
-  "author": "Justin Schwartzenberger",
-  "description": "This project is the repository for my Angular Essential Training course on LinkedIn Learning.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coursefiles/angular-essential-training.git"
-  },
+  "name": "movie-watch-list",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "lint": "ng lint"
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "8.0.1",
-    "@angular/common": "8.0.1",
-    "@angular/compiler": "8.0.1",
-    "@angular/core": "8.0.1",
-    "@angular/forms": "8.0.1",
-    "@angular/platform-browser": "8.0.1",
-    "@angular/platform-browser-dynamic": "8.0.1",
-    "@angular/router": "8.0.1",
-    "core-js": "2.5.4",
-    "rxjs": "6.5.2",
-    "tslib": "1.9.0",
-    "zone.js": "0.9.1"
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/compiler": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/router": "^16.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.800.3",
-    "@angular/cli": "8.0.3",
-    "@angular/compiler-cli": "8.0.1",
-    "@angular/language-service": "8.0.1",
-    "@types/node": "8.9.4",
-    "codelyzer": "5.0.1",
-    "ts-node": "7.0.0",
-    "tslint": "5.11.0",
-    "typescript": "3.4.5"
+    "@angular-devkit/build-angular": "^16.2.8",
+    "@angular/cli": "^16.2.8",
+    "@angular/compiler-cli": "^16.2.0",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.1.3"
   }
 }
